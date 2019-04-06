@@ -1,0 +1,259 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+a:hover, a, a:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+img {
+	max-width: 100%;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-size:14px;
+	line-height: 26px;
+	color: #555;
+}
+
+/****************************************************************************/
+/*                          Header Area Style Start                         */
+/****************************************************************************/
+
+.header-area {
+	background: url(../img/header-banner-bg.jpg) no-repeat scroll 0 0 / cover;
+	height: 100%;
+	position: relative;
+}
+.header-area:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #000;
+	width: 100%;
+	height: 100%;
+	opacity: .3;
+}
+
+.header-table {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.header-full {
+	position: relative;
+
+}
+
+.header-full h1 {
+	color: #f6f9fa;
+	font-size: 52px;
+}
+
+.header-full p, .header-bottom-border {
+	margin: 36px 0px;
+} 
+.header-full p {
+	color: #f6f9fa;
+	font-size: 17px;
+}
+
+.section-title:after {
+	content:"";
+	position: absolute;
+	left: 0px;
+	bottom: 80px;
+	width: 35px;
+	height: 2px;
+	background: #fff;
+}
+
+
+a.btn-project {
+	color: #f6f9fa;
+	border: 1px solid #f6f9fa;
+	padding: 10px 35px;
+	display: inline-block;
+	margin-top: 50px;
+}
+.header-cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+.header-logo {
+	position: absolute;	
+	left: 0px;
+	top: -90px;
+}
+/****************************************************************************/
+/*                          Header Area Style End                           */
+/****************************************************************************/
+/****************************************************************************/
+/*                          Header Area Style End                           */
+/****************************************************************************/
+.services-area {
+	background: #F6F6F6;
+	padding: 150px 0px;
+}
+.our-work {
+	padding-top: 130px;
+}
+
+.memeber {
+	background: #000;
+	transform: rotate(45deg);
+	width:150px;
+	height: 150px;
+	margin-bottom: 76px;
+}
+.s-servce {
+	transform: rotate(-45deg);
+	text-align: center;
+	margin-left:-37px;
+	padding-top: 45px;
+}
+.s-servce h4 {
+	font-size: 16px;
+	padding-top: 9px;
+	color: #fff;
+	opacity: 0.9;
+}
+
+.our-work h1:after, .read-more h1:after {
+	content:"";
+	position: absolute;
+	left: 17px;
+	bottom: 0px;
+	background: #000;
+	width: 35px;
+	height: 1px;
+}
+
+.project-area {
+	background: #28282E;
+	padding: 100px 0px;
+	color: #fff;
+}
+.section-title.border:after {
+	margin-left: 15px;
+}
+.read-our-minds-area {
+	padding: 20px 0px;
+}
+.read-more {
+	padding: 100px 0px;
+}
+.read-more h1 {
+	font-size: 53px;
+	text-transform: uppercase;
+}
+
+.titleanddescription {
+	text-transform: uppercase;
+	border-bottom: 1px solid #ddd;
+	position: relative;
+}
+.titleright {
+	text-align: center;
+}
+.title-details p {
+	text-transform: lowercase;
+}
+.title-description {
+	padding: 20px;
+}
+.big-picture {
+	background: url(../img/big-pictures.jpg) no-repeat scroll 0 0 / cover;
+	color: #ddd;
+}
+.big-picture:before {
+	content:"";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #000;
+	width: 100%;
+	height: 100%;
+	opacity: .4;
+}
+a.readmorebutton {
+	text-align: center;
+	display: block;
+	color: #ef443a;
+	padding: 20px 0px 0px 0px;
+
+}
+.slow-life-area {
+	background: #2c3e50;
+	padding: 100px 0px;
+}
+.slow-life-title h1 {
+	padding-bottom: 50px;
+}
+
+.slow-life-title, .slider {
+	text-align: center;
+	color: #fff;
+}
+
+.slider {
+	padding: 30px 0px;
+}
+.carousel-indicators {
+	bottom: -40px;
+	
+}
+.item img {
+	min-width: 100%;
+	max-height: 440px;
+}
+.carousel-indicators li {
+	background: #000;
+	border: 1px solid #000;
+	width: 7px;
+	height: 7px;
+}.carousel-indicators li.active {
+	background: #fff;
+	border: 1px solid #000;
+	width: 10px;
+	height: 10px;
+}
+
+.lets-talk-area {
+	background: #ef4035;
+	
+}
+.talk {
+	color:#fff;
+	margin: 40px 0px;
+	text-align: center;
+}
+
+.talk h2 {
+	font-size: 18px;
+}
+.footer-area {
+	background: #2c3e50;
+	padding: 30px 0px;
+}
+
+.footer-contact {
+	margin-top: 15px;
+}
