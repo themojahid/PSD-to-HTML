@@ -1,2 +1,2 @@
-# PSD-to-HTML-Portfolio
+# PSD-to-HTML
 My Practice Projects
